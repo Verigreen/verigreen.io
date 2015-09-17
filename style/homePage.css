@@ -239,7 +239,7 @@ body {
     opacity: 65;
     height: 590px;
     text-align: center;
-	display: none;
+    display:none;
 }
 #movie h1 {
     padding-top: 185px;
@@ -406,7 +406,7 @@ body {
 }
 
 #aboutUs #people h1 {
-    font-size: 16px;
+    font-size: 13px;
     color: #868686;
     font-family: Metric-Bold;
     margin-top: 20px;
@@ -482,6 +482,12 @@ body {
 }
 #footer #followUs a {
     float: left;
+}
+
+@media (min-width: 360px) {
+    #aboutUs #people h1{
+        font-size: 16px;
+    }
 }
 
 @media (min-width: 1024px) {
