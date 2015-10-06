@@ -271,7 +271,7 @@ body {
 }
 #fromTheProduct p {
     float:none;
-    margin: 0;
+    margin: 0 auto;
     padding-top: 54px;
     font-size: 20px;
     color: #686868;
