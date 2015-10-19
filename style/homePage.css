@@ -490,6 +490,41 @@ body {
     }
 }
 
+@media (max-width: 650px) {
+	#githubRibbon > IMG{
+		width: 100px;
+		height: 100px;
+	}
+
+	.description_h2{
+		margin-top: 110px !important;
+		font-size: 42px !important;
+		//border:solid 1px red !important;
+	}
+
+	#description #whatItsAllAbout{
+		width:80% !important;
+		margin: 10px auto !important;
+	}
+
+	#howItWorks #howItWorksLeftSide{
+		margin-top:26px;
+		max-width: 94%;
+		padding-left: 3%;
+	}
+
+	#howItWorks #howItWorksRightSide{
+		max-width: 94%;
+	}
+
+	#fromTheProduct p{
+		padding: 44px 3% 0 3%;
+	}
+}
+
+
+
+
 @media (min-width: 1024px) {
     #header {
         height: 112px;
