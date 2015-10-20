@@ -431,9 +431,6 @@ body {
     float:right;
     padding-top: 20px;
 }
-.upperContacts {
-    margin-bottom: 20px;
-}
 #footer {
     display: none;
     background-color: #94c140;
@@ -483,11 +480,27 @@ body {
 #footer #followUs a {
     float: left;
 }
-
-@media (min-width: 360px) {
+.newAbout_wrapper
+{
+	margin: 20px 0;
+}
+@media (min-width: 320px) {
     #aboutUs #people h1{
         font-size: 16px;
     }
+
+	.newAbout{
+		background-color: #ededed !important;
+		text-align: center;
+	}
+
+	.newAbout_title{
+		font-size: 16px;
+		color: #868686;
+		font-family: Metric-Bold;
+	}
+
+
 }
 
 @media (max-width: 650px) {
@@ -520,6 +533,7 @@ body {
 	#fromTheProduct p{
 		padding: 44px 3% 0 3%;
 	}
+
 }
 
 
@@ -613,7 +627,7 @@ body {
         margin-left: 68px;
     }
     #aboutUs {
-        height: 920px;
+        //height: 920px;
     }
     #aboutUs #people {
         margin: 92px auto;
@@ -640,9 +654,7 @@ body {
     #footer {
         display: block;
     }
-    .upperContacts {
-        margin-bottom: 60px;
-    }
+	
 }
 @media (min-width: 1367px) {
     #description {
