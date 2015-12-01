@@ -658,7 +658,7 @@ body {
 }
 @media (min-width: 1367px) {
     #description {
-        background: url(../images/VG_header-img_1920x435.png) no-repeat;
+        background: url(../images/VG_header-img_1920x435.jpg) no-repeat;
     }
 }
 .clearfloat { /* this class can be placed on a <br /> or empty div as the final element following the last floated div (within the #container) if the #footer is removed or taken out of the #container */
