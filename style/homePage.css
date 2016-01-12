@@ -122,7 +122,6 @@ body {
     letter-spacing: -1px;
 }
 #description p {
-
     margin: 0;
 }
 
@@ -133,17 +132,20 @@ body {
 
 #description #whatItsAllAbout {
     align-self: center;
-    width: 240px;
+    /*width: 240px;
     height: 42px;
     margin: 0 auto;
     border-radius: 28em;
     background-color: #558200;
-    /*margin-left: 563px;*/
+    margin-left: 563px;*/
 
 }
+
+/*
 #description #whatItsAllAbout:hover {
     background-color: #496f00;
 }
+
 #description #whatItsAllAbout a {
     padding-top: 13px;
     color: white;
@@ -154,6 +156,7 @@ body {
 #description #whatItsAllAbout a:hover {
     text-decoration: none;
 }
+*/
 #description #underline {
     text-decoration: underline;
 }
@@ -484,6 +487,8 @@ body {
 {
 	margin: 20px 0;
 }
+
+
 @media (min-width: 320px) {
     #aboutUs #people h1{
         font-size: 16px;
@@ -503,6 +508,13 @@ body {
 
 }
 
+
+@media (min-width: 800px) and (max-width: 1025px){
+    .no_thanks {
+        margin: 0 0 0 -153px !important;
+    }
+}
+
 @media (max-width: 650px) {
 	#githubRibbon > IMG{
 		width: 100px;
@@ -516,8 +528,10 @@ body {
 	}
 
 	#description #whatItsAllAbout{
-		width:80% !important;
+		/*
+        width:80% !important;
 		margin: 10px auto !important;
+        */
 	}
 
 	#howItWorks #howItWorksLeftSide{
@@ -603,9 +617,10 @@ body {
         padding-top: 100px;
         padding-left: 149px;
     }
+    
     #description #whatItsAllAbout {
-        margin-top: 64px;
-        margin-bottom: 22px;
+        margin-top: 5px;
+        margin-bottom: 1px;
     }
     #howItWorks {
         height: 590px;
@@ -656,11 +671,16 @@ body {
     }
 	
 }
+
+
 @media (min-width: 1367px) {
     #description {
         background: url(../images/VG_header-img_1920x435.jpg) no-repeat;
     }
 }
+
+
+
 .clearfloat { /* this class can be placed on a <br /> or empty div as the final element following the last floated div (within the #container) if the #footer is removed or taken out of the #container */
     clear: both;
     height: 0;
